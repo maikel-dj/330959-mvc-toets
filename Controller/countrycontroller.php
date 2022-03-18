@@ -1,5 +1,5 @@
 <?php
-require_once('Model/country.php');
+require_once('../Model/country.php');
 
 class CountryController {
     public function __construct()
@@ -20,7 +20,7 @@ class CountryController {
     public function readAllCountries()
     {
         $countries = $this->countryModel->getAll();
-        include('View/country.php');
+        include('../View/country.php');
     }
 }
 

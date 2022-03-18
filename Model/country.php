@@ -1,6 +1,6 @@
 <?php
 
-require_once('Helpers/datahandler.php');
+require_once('../Helpers/datahandler.php');
 
 class Country
 {

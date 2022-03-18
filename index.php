@@ -1,7 +1,3 @@
-<?php
+<h4> Welkom! </h4>
 
-require_once('Controller/countrycontroller.php');
-
-$countryController = new CountryController();
-
-$countryController->handleRequest();
+<a href="http://mvc-toets.org/countries/index.php">Landenoverzicht!</a>

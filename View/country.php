@@ -14,4 +14,7 @@ foreach($countries as $country)
         <?= $country['population'] ?>
     </div>
 <?php
-}
+} ?>
+
+<br>
+<a href="http://mvc-toets.org">Terug naar homepagina!</a>
