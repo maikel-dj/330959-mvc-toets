@@ -1,1 +1,7 @@
-<a href="https://mvc-toets.org/countries/index">Landenoverzicht</a>
+<?php
+
+require_once('Controller/countrycontroller.php');
+
+$countryController = new CountryController();
+
+$countryController->handleRequest();
